@@ -7,6 +7,8 @@ If you like what I'm doing, consider supporting me by clicking the heart button 
 
 Major areas include:
 
+Prerequisite: install [ripgrep](https://github.com/BurntSushi/ripgrep).
+
 ## xdg_config
 
 This area contains configuration I want to share between machines that will go to `$XDG_CONFIG_HOME` (generally, `~/.config`).
