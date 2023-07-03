@@ -70,6 +70,7 @@ Here is a small list of shortcuts (space is my leader key)
 42. `control h` signature help
 43. `control v` then highlight the area/block u want to comment `shift i` to go into insert mode at the very start of the line
     `//` and then press esc or control [
+44. `vi"` and it will select everything withing double quotes or `vi(`, the best part is it will jump the curser before the string  
 
 there r a lot more such shortcuts, but these r what coming to my mind will definitely update this list in future
 
