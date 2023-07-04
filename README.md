@@ -64,37 +64,46 @@ Here is a small list of shortcuts (space is my leader key)
 31. `:%s/original-name/new-name` if we want to replace all the first instance of a specific word in all the lines
 32. `:%s#/#doom#g` if we want to replace the occurence of `//` in our file then we can use a different delimiter say `#`
 33. `:s/original-name/new-name/gc` this will give u option to replace the next occurence or not, press y or n
-34. `:.,+5s/original-name/new-name/g` a way to change the next 5 occurence of a specific word
+    	y		Yes; make this change.
+	n		No; skip this match.
+	a		All; make this change and all remaining ones without
+			further confirmation.
+	q		Quit; don't make any more changes.
+	l		Last; make this change and then quit.
+	CTRL-E		Scroll the text one line up.
+	CTRL-Y		Scroll the text one line down.
+
+35. `:.,+5s/original-name/new-name/g` a way to change the next 5 occurence of a specific word
 
 
 
     lsp ones
-35. `control p` select the previous item
-36. `control n` select the next item
-37. `control y` confirm, don't forget this one, it's important cause without this u will kinda hate lsp
-38. `control<leader>` complete, this one too, imp
+36. `control p` select the previous item
+37. `control n` select the next item
+38. `control y` confirm, don't forget this one, it's important cause without this u will kinda hate lsp
+39. `control<leader>` complete, this one too, imp
 
 
-39. `gd` lsp buffer definition
-40. `K` Hower
-41. `vws` workspace symbols
-42. `<leader>vd` diagnostic open float
-43. `[d` diagnostic goto next
-44. `]d` diagnostic goto prev
-45. `<leader>vca` buffer code action
-46. `<leader>vrr` buffer references
-47. `<leader>vrn` buffer rename
-48. `control h` signature help
+40. `gd` lsp buffer definition
+41. `K` Hower
+42. `vws` workspace symbols
+43. `<leader>vd` diagnostic open float
+44. `[d` diagnostic goto next
+45. `]d` diagnostic goto prev
+46. `<leader>vca` buffer code action
+47. `<leader>vrr` buffer references
+48. `<leader>vrn` buffer rename
+49. `control h` signature help
 
 
 
 
-49. `control v` then highlight the area/block u want to comment `shift i` to go into insert mode at the very start of the line
+50. `control v` then highlight the area/block u want to comment `shift i` to go into insert mode at the very start of the line
     `//` and then press esc or control [
-50. `vi"` and it will select everything withing double quotes or `vi(`, the best part is it will jump the curser before the string
-51. `"+y` to copy into clipboard from vim editor
+51. `vi"` and it will select everything withing double quotes or `vi(`, the best part is it will jump the curser before the string
+52. `"+y` to copy into clipboard from vim editor
     `"` says to use a register, `+` specifies the register to use (where + means the system clipboard in this case)m `y` is the yank operation
-52. `"+p` and `"+P` paste into vim from system clipboard
+53. `"+p` and `"+P` paste into vim from system clipboard
 
 
 
