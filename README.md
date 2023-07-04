@@ -50,30 +50,31 @@ Here is a small list of shortcuts (space is my leader key)
 25. `control u` for page up
 26. `control d` for page down
 27. `/something` this search something in that file
-28. `n` for the next occurrence of that search thing, but for that first we need to get out of searching by pressing enter
+28. `n` for the next occurrence of that search thing, but for that first we need to get out of searching by pressing enter, and `shift n` or `N` to go backwards
+29. `:%s/original-thing/new-thing/g` here `%s` is for searching something, `/original-name` for searching this name, `/new-name` for the new name, `/g` for doing this globally
 
     lsp ones
-29. `control p` select the previous item
-30. `control n` select the next item
-31. `control y` confirm, don't forget this one, it's important cause without this u will kinda hate lsp
-32. `control<leader>` complete, this one too, imp
+30. `control p` select the previous item
+31. `control n` select the next item
+32. `control y` confirm, don't forget this one, it's important cause without this u will kinda hate lsp
+33. `control<leader>` complete, this one too, imp
 
-33. `gd` lsp buffer definition
-34. `K` Hower
-35. `vws` workspace symbols
-36. `<leader>vd` diagnostic open float
-37. `[d` diagnostic goto next
-38. `]d` diagnostic goto prev
-39. `<leader>vca` buffer code action
-40. `<leader>vrr` buffer references
-41. `<leader>vrn` buffer rename
-42. `control h` signature help
-43. `control v` then highlight the area/block u want to comment `shift i` to go into insert mode at the very start of the line
+34. `gd` lsp buffer definition
+35. `K` Hower
+36. `vws` workspace symbols
+37. `<leader>vd` diagnostic open float
+38. `[d` diagnostic goto next
+39. `]d` diagnostic goto prev
+40. `<leader>vca` buffer code action
+41. `<leader>vrr` buffer references
+42. `<leader>vrn` buffer rename
+43. `control h` signature help
+44. `control v` then highlight the area/block u want to comment `shift i` to go into insert mode at the very start of the line
     `//` and then press esc or control [
-44. `vi"` and it will select everything withing double quotes or `vi(`, the best part is it will jump the curser before the string
-45. `"+y` to copy into clipboard from vim editor
+45. `vi"` and it will select everything withing double quotes or `vi(`, the best part is it will jump the curser before the string
+46. `"+y` to copy into clipboard from vim editor
     `"` says to use a register, `+` specifies the register to use (where + means the system clipboard in this case)m `y` is the yank operation
-46. `"+p` and `"+P` paste into vim from system clipboard
+47. `"+p` and `"+P` paste into vim from system clipboard
 
 there r a lot more such shortcuts, but these r what coming to my mind will definitely update this list in future
 
