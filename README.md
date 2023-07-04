@@ -54,12 +54,15 @@ Here is a small list of shortcuts (space is my leader key)
 25. `control u` for page up
 26. `control d` for page down
 27. `/something` this search something in that file
+
+
+
+
 28. `n` for the next occurrence of that search thing, but for that first we need to get out of searching by pressing enter, and `shift n` or `N` to go backwards
 29. `:%s/original-name/new-name/g` here `%s` is for searching something, `/original-name` for searching this name, `/new-name` for the new name, `/g` for doing this globally
 30. `:s/original-name/new-name/g` if we only want to change the occurence of a specific word in a single line
 31. `:%s/original-name/new-name` if we want to replace all the first instance of a specific word in all the lines
 32. `:%s#/#doom#g` if we want to replace the occurence of `//` in our file then we can use a different delimiter say `#`
-33. `control-n` for making multi cursor
 
 
 
