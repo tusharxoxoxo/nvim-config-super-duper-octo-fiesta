@@ -63,7 +63,8 @@ Here is a small list of shortcuts (space is my leader key)
 30. `:s/original-name/new-name/g` if we only want to change the occurence of a specific word in a single line
 31. `:%s/original-name/new-name` if we want to replace all the first instance of a specific word in all the lines
 32. `:%s#/#doom#g` if we want to replace the occurence of `//` in our file then we can use a different delimiter say `#`
-
+33. `:s/original-name/new-name/gc` this will give u option to replace the next occurence or not, press y or n
+34. `:.,+5s/original-name/new-name/g` a way to change the next 5 occurence of a specific word
 
 
 
