@@ -99,11 +99,12 @@ Here is a small list of shortcuts (space is my leader key)
 
 
 50. `control v` then highlight the area/block u want to comment `shift i` to go into insert mode at the very start of the line
-    `//` and then press esc or control [
-51. `vi"` and it will select everything withing double quotes or `vi(`, the best part is it will jump the curser before the string
-52. `"+y` to copy into clipboard from vim editor
+    `//` and then press ESC or control [
+51. `vi"` and it will select everything within double quotes or `vi(`, the best part is it will jump the cursor before the string
+52. `"+y` to copy into clipboard from Vim editor
     `"` says to use a register, `+` specifies the register to use (where + means the system clipboard in this case)m `y` is the yank operation
 53. `"+p` and `"+P` paste into vim from system clipboard
+54. `gg"+yG` if u r in normal mode and want to select all the content on the current file, something which we usually do via `cmd a` in our normal day to day browsing
 
 
 
