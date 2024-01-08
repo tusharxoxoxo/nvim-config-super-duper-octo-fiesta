@@ -31,8 +31,9 @@ return require('packer').startup(function(use)
   use("mbbill/undotree")
   use("tpope/vim-fugitive")
   use("ThePrimeagen/vim-be-good")
-  use { 'sourcegraph/sg.nvim', run = 'nvim -l build/init.lua' }
-  use { 'nvim-lua/plenary.nvim' }
+--  use { 'sourcegraph/sg.nvim', run = 'nvim -l build/init.lua' }
+--  use { 'nvim-lua/plenary.nvim' }
+  use("github/copilot.vim")
   use {
       'VonHeikemen/lsp-zero.nvim',
       branch = 'v1.x',
