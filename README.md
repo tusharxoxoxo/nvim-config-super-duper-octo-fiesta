@@ -105,7 +105,7 @@ Here is a small list of shortcuts (space is my leader key)
     `"` says to use a register, `+` specifies the register to use (where + means the system clipboard in this case)m `y` is the yank operation<br/>
 53. `"+p` and `"+P` paste into vim from system clipboard<br/>
 54. `gg"+yG` if u r in normal mode and want to select all the content on the current file, something which we usually do via `cmd a` in our normal day to day browsing<br/>
-
+55. `ctrl r` to fzf zsh history<br/> 
 
 
 there r a lot more such shortcuts, but these r what coming to my mind will definitely update this list in future<br/>
