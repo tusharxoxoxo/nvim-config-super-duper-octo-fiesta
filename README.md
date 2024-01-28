@@ -118,4 +118,5 @@ Subdirectories include:
 
 Check the `nvim` folder for configuration. For more instructions, see the README there.
 
-Ignore the vim folder, it's out-of-date.
+> *this page was last updated on 25 Jan 2024. please contact me if you notice it is outdated, or if you would like more recent information.*
+
