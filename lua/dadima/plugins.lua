@@ -34,17 +34,32 @@ return {
 		},
 	},
 
-	-- Telescope
+	-- File/search picker
 	{
-		"nvim-telescope/telescope.nvim",
-		cmd = "Telescope",
-		keys = {
-			{ "<leader>pf", "<cmd>Telescope find_files<cr>", desc = "Find files" },
-			{ "<C-p>", "<cmd>Telescope git_files<cr>", desc = "Find git files" },
-			{ "<leader>ps", "<cmd>Telescope live_grep<cr>", desc = "Live grep" },
-			{ "<leader>vh", "<cmd>Telescope help_tags<cr>", desc = "Help tags" },
+		"dmtrKovalenko/fff.nvim",
+		build = function()
+			require("fff.download").download_or_build_binary()
+		end,
+		lazy = false,
+		opts = {
+			lazy_sync = true,
 		},
-		dependencies = { "nvim-lua/plenary.nvim" },
+		keys = {
+			{ "<leader>pf", function() require("fff").find_files() end, desc = "Find files" },
+			{ "<C-p>", function() require("fff").find_files() end, desc = "Find git files" },
+			{ "<leader>ps", function() require("fff").live_grep() end, desc = "Live grep" },
+			{
+				"<leader>vh",
+				function()
+					vim.ui.select(vim.fn.getcompletion("", "help"), { prompt = "Help tags" }, function(choice)
+						if choice then
+							vim.cmd.help(choice)
+						end
+					end)
+				end,
+				desc = "Help tags",
+			},
+		},
 	},
 
 	-- Theme (prioritized for fast loading)
